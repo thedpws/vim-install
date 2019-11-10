@@ -1,0 +1,27 @@
+
+
+.\" Manpage for vimi.
+
+.TH man 1 "09 November 2019" "1.0" "vimi man page"
+.SH NAME
+vimi \- installs vim plugins automatically
+.SH SYNOPSIS
+vimi [OPTIONS]
+.SH DESCRIPTION
+vimi is a plugin manager designed after user-friendly package managers.
+.SH OPTIONS
+.B "-i plugin_name, --install plugin_name"
+       Searches for the repo with that plugin name and requests permission to install the plugin.
+
+.B "-u plugin_name, --uninstall plugin_name"
+       Uninstalls the plugin.
+
+.B "-l, --list"
+       Lists all plugins installed. 
+       
+.B "-v, --verbose"
+       Verbose prints plugin status, version, maintainer, source.
+
+.B "-h, --help"
+       Prints out a help message.
+
